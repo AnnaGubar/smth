@@ -110,3 +110,44 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.header-buttons {
+  display: none;
+}
+
+.header-buttons-list {
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: -30px;
+  @media screen and (min-width: 768px) {
+    margin-top: 48px;
+  }
+}
+
+.btn button {
+  width: 130px;
+  height: 44px;
+  text-transform: uppercase;
+  line-height: 1.333;
+  color: $header-text-color;
+  background-color: transparent;
+  border: 1px solid $header-text-color;
+  border-radius: 5px;
+  @media screen and (min-width: 768px) {
+    width: 152px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 157px;
+    height: 42px;
+  }
+}
+
+.btn-watched {
+  margin-right: 20px;
+  @media screen and (min-width: 768px) {
+    margin-right: 32px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-right: 16px;
+  }
+}
