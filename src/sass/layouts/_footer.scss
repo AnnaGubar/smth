@@ -1,0 +1,29 @@
+footer {
+  padding: 30px;
+  text-align: center;
+  height: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  color: $footer-text-color;
+  background-color: $footer-background-color;
+}
+
+.footer-span {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.footer-pic {
+  margin: 10px 10px 0 10px;
+}
+
+.footer-link {
+  display: inline;
+}
+
+.footer-contact {
+  font-size: 18px;
+  color: $accent-text-color;
+  border-bottom: 1px solid $accent-text-color;
+}

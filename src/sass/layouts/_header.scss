@@ -17,6 +17,26 @@ header {
       url('../images/header-1024.jpg');
   }
 }
+.header {
+  padding: 40px 20px 92px 20px;
+  background-image: linear-gradient($header-shadow-color 0%, $header-shadow-color 100%),
+    url('../images/home-320.jpg');
+  background-color: $title-text-color;
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    padding: 45px 32px 80px 32px;
+    background-image: linear-gradient($header-shadow-color 0%, $header-shadow-color 100%),
+      url('../images/home-768.jpg');
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient($header-shadow-color 0%, $header-shadow-color 100%),
+      url('../images/home-1024.jpg');
+  }
+}
 
 .flex {
   display: flex;
@@ -80,6 +100,7 @@ header {
   position: relative;
   height: 20px;
   width: 100%;
+  color: $header-text-color;
   background-color: transparent;
   border-color: transparent;
   border-bottom: 0.5px solid $header-text-color;
@@ -91,7 +112,7 @@ header {
 }
 
 .search::placeholder {
-  color: $footer-background-color;
+  color: rgba(255, 255, 255, 0.423);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
